@@ -1,13 +1,13 @@
-import CreativSpeakers from "./design-system/components/CreativSpeakers";
-import SpeakersData from './design-system/components/CreativSpeakers/SpeakersData';
-
+import CreativeSpeakers from "./design-system/components/CreativeSpeakers";
+import speakersData from './design-system/components/CreativeSpeakers/SpeakersData';
+import "./design-system/main.css"
 function App() {
   return (
     <div className="App">
       <div style={{display: 'flex'}}>
-        {SpeakersData.map(item => {
+        {speakersData.map(item => {
           return(
-            <CreativSpeakers name={item.name} img={item.img} alt={item.alt} Job={item.job} />
+            <CreativeSpeakers name={item.name} img={item.img} alt={item.alt} Job={item.job} />
           )
         })}
       </div>
