@@ -1,7 +1,11 @@
-import sponsor1 from '../../../shared/assets/OurSponsors/sponsor1.jpg';
-import sponsor2 from '../../../shared/assets/OurSponsors/sponsor-img2.jpg';
-import sponsor3 from '../../../shared/assets/OurSponsors/sponsor-img3.jpg';
-import sponsor4 from '../../../shared/assets/OurSponsors/sponsor-img4.jpg';
+// import sponsor1 from 'images/OurSponsors/sponsor1.jpg';
+// import sponsor2 from 'images/OurSponsors/sponsor-img2.jpg';
+// import sponsor3 from 'images/OurSponsors/sponsor-img3.jpg';
+// import sponsor4 from 'images/OurSponsors/sponsor-img4.jpg';
+import sponsor1 from './../../../shared/assets/OurSponsors/sponsor-img1.jpg';
+import sponsor2 from './../../../shared/assets/OurSponsors/sponsor-img2.jpg';
+import sponsor3 from './../../../shared/assets/OurSponsors/sponsor-img3.jpg';
+import sponsor4 from './../../../shared/assets/OurSponsors/sponsor-img4.jpg';
 
 const OurSponsors = [
     {
